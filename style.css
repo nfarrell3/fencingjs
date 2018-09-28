@@ -1,0 +1,124 @@
+/* Styles go here */
+
+.playerInputWrapper {
+  height: 155px;
+}
+
+.playerInput button {
+  margin: 10px 0 15px 0;
+}
+
+.playerInput li {
+  list-style: none;
+}
+
+.logWrapper {
+  border: solid .5px grey;
+  height: 200px;
+  width: auto;
+  min-width: 200px;
+  background-color: #eee;
+}
+
+.log  {
+  height: 200px;
+  overflow-y: scroll;
+
+}
+
+.log ul {
+  margin: 0;
+  padding-left: 0px;
+}
+
+
+.log li {
+  list-style: none;
+  border-bottom: .5px solid grey;
+  padding-left: 3px;
+  height: 16px;
+  padding-top: 2px;
+  padding-bottom: 1px;
+}
+
+
+
+.scoreBoard {
+  width: 100%;
+  border: 1px solid;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.scoreBoard p {
+  display: inline;
+}
+
+.scoreBoard h4 {
+  margin: 0;
+}
+
+.flags {
+  display: flex;
+  flex-direction: row;
+}
+
+.flag {
+  border: 1px solid;
+  height: 19px;
+  width: 50px;
+  width: 50%;
+}
+
+.redFlag {
+  background-color: #820000;
+  order: 1;
+}
+
+.greenFlag {
+  background-color: #2c592a;
+  order: 0;
+}
+
+.score {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+
+.leftScore {
+  border: 1px solid;
+  width: 50%;
+}
+
+.rightScore {
+  border: 1px solid;
+  width: 50%;
+}
+
+.gameBody {
+  width: 75%;
+  min-width: 400px;
+  max-width: 500px;
+  margin: auto;
+  background: #f6f6f6;
+  padding: 50px;
+  
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 75%;
+  margin: auto;
+  padding: 25px;
+}

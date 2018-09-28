@@ -1,5 +1,7 @@
 #FencingJS
 
+Play it! http://fencing-js.s3-website-us-east-1.amazonaws.com/
+
 ##How does this work?
 
 This game is a glorified rock-paper-scissors, based on the sport of fencing.
